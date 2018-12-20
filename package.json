@@ -1,0 +1,20 @@
+{
+  "name": "littlejohn",
+  "version": "1.0.0",
+  "description": "Robinhood Portfolio Menubar App",
+  "main": "index.js",
+  "scripts": {
+    "build": "electron-packager . Example --platform=darwin --arch=x64 --version=0.36.0 --icon=Icon.icns",
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "menubar": "^5.2.3",
+    "robinhood": "^1.6.4"
+  },
+  "devDependencies": {
+    "electron-packager": "^13.0.1",
+    "electron-prebuilt": "^1.4.13"
+  }
+}
